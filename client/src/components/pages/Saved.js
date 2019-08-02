@@ -10,7 +10,7 @@ class Saved extends Component {
     }
 
     componentDidMount() {
-        API.getBooks()
+        API.getSavedBooks()
             .then(res =>  {
                 this.setState({ results: res.data });
                 console.log('results:', this.state.results)

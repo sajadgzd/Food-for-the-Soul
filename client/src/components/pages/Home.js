@@ -18,6 +18,7 @@ class Home extends Component {
                 this.setState({
                     results: res.data.items
                 })
+                console.log('results:', this.state.results)
             })
             .catch(err => {
                 throw err
