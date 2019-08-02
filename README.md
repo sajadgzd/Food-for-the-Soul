@@ -1,6 +1,3 @@
-# Google Books Search `(MERN Stack Application)`
-
----
 
 ## Description
 A `MERN` stack application, utilizing `MongoDB`, `Express`, `React`, and `Node`.
