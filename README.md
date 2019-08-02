@@ -2,7 +2,7 @@
 
 - For demo please [Click here](https://google-books-44263.herokuapp.com/)
 
-![Gif Demo](/client/public/assets/img/demo.gif)
+![Gif Demo](./client/public/assets/img/demo.gif)
 
 ---
 
