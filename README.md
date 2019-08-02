@@ -1,13 +1,12 @@
 # Google Books Search `(MERN Stack Application)`
 
-Link to [Deployed App]()
+View the [Demo](https://google-books-44263.herokuapp.com/)
 
 <img src='' width='75%'>
 
 ---
 
 ## Description
-
 A `MERN` stack application, utilizing `MongoDB`, `Express`, `React`, and `Node`.
 
 This full-stack application allows the user to utilize the `Google Books API` to look up books they're interested in, save to the database, and view their page on the Google Books website.
