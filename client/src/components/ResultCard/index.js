@@ -25,7 +25,7 @@ function ResultCard({ title, link, id, author, image, description, saveBook, del
                     </span>
                 </div>
                 <div className='row'>
-                    <hr />
+                    
                 </div>
                 <div className='row'>
                     <div className='col-3 text-center'>
@@ -36,6 +36,7 @@ function ResultCard({ title, link, id, author, image, description, saveBook, del
                         {description}
                     </div>
                 </div>
+                <hr />
             </div>
         )
     } else {
@@ -61,7 +62,7 @@ function ResultCard({ title, link, id, author, image, description, saveBook, del
                     </span>
                 </div>
                 <div className='row'>
-                    <hr />
+                    
                 </div>
                 <div className='row'>
                     <div className='col-3 text-center'>
@@ -72,6 +73,7 @@ function ResultCard({ title, link, id, author, image, description, saveBook, del
                         {description}
                     </div>
                 </div>
+                <hr />
             </div>
         )
     }
