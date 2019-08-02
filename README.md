@@ -19,6 +19,8 @@ This full-stack application allows the user to utilize the `Google Books API` to
 
 ---
 
+## Demo
+
 - For live demo please [Click here](https://google-books-44263.herokuapp.com/)
 
 - Gif Demo
