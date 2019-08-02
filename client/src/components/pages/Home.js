@@ -14,9 +14,10 @@ class Home extends Component {
 
     componentDidMount() {
         API.getBooks()
-            .then(res =>  {
-                this.setState({ books: res.data });
-                console.log('books:', this.state.books)
+            .then(res => {
+                this.setState({
+                    results: res.data.items
+                })
             })
             .catch(err => {
                 throw err
