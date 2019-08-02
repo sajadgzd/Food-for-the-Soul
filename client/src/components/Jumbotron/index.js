@@ -5,7 +5,7 @@ function Jumbotron() {
     return (
     <div className='jumbotron jumbotron-fluid bg-secondary text-white'>
         <span className='display-2'>
-            Foods for the Soul
+            Food for the Soul
         </span>
         <p>
         <span className='lead'>
