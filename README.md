@@ -1,6 +1,6 @@
 # Google Books Search `(MERN Stack Application)`
 
-View the [Demo](https://google-books-44263.herokuapp.com/)
+To view a demo [Click here](https://google-books-44263.herokuapp.com/)
 
 <img src='' width='75%'>
 

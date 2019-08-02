@@ -64,19 +64,22 @@ class Home extends Component {
             image: targetBook[0].volumeInfo.imageLinks.thumbnail,
             link: targetBook[0].volumeInfo.infoLink
         }
-        // Instantiates new object formatted per the db schema.
 
+        // Instantiates new object formatted per the db schema.
         if (this.state.books[bookID]) {
             console.log(`You've already saved that book.`)
             return
 
         } else {
             newState.books[bookID] = newBook
+            console.log("Target:", newState.books[bookID]);
             // console.log('Target:', targetBook[0])
+            // console.log("NEW STATE:",newState.books);
             
             this.setState(newState)
             // Mutates state to now hold saved books in this.state.books
             console.log('Updated this.state:', this.state.books)
+            console.log("this.state::", this.state);
 
             API.saveBook({
                 title: targetBook[0].volumeInfo.title,
