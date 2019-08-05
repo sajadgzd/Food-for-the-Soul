@@ -3,9 +3,11 @@ import React from 'react';
 function Button(props) {
     if (props.href) {
         return (
+        <a href={props.href}>
         <button className='btn btn-outline-dark btn-sm btn-block'>
-            <a href={props.href}>{props.children}</a>
+            {props.children}
         </button>
+        </a>
         )
     }
     else if (props.onClick) {
