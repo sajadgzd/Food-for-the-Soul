@@ -26,6 +26,8 @@ This full-stack application allows the user to utilize the `Google Books API` to
 - Gif Demo
   
   ![Demo](/client/public/assets/img/demo.gif)
+  
+  
 
 <sub>
 
